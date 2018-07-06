@@ -1,0 +1,4 @@
+6/28 -- I added Firebase to the app, I set up the GUI for a log in but for some reason the code is saying that "import FirebaseAuth" is not a thing.
+Need to figure out why it is not working even though code is almost 1:1 to the SOS APP. 
+
+Need to make a second controller to test the log in once it is done as well.
