@@ -84,7 +84,7 @@
         <!--CampViewController-->
         <scene sceneID="Qxg-MT-6M0">
             <objects>
-                <viewController title="CampViewController" id="Wl9-jD-9tf" customClass="CampInfoViewController" customModule="KidsThatCode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="CampViewController" id="Wl9-jD-9tf" customClass="CampInfoViewController" customModule="KidsThatCode" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Uj-fy-IMp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,6 +105,20 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="LabelCell" id="RhC-nR-KSp">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RhC-nR-KSp" id="6J3-yV-Egs">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Wl9-jD-9tf" id="aZH-Wz-BeS"/>
+                                    <outlet property="delegate" destination="Wl9-jD-9tf" id="PAT-04-evb"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -116,8 +130,7 @@
                         <viewLayoutGuide key="safeArea" id="zsq-Kx-cX8"/>
                     </view>
                     <connections>
-                        <outlet property="schedule" destination="HAm-ty-uoB" id="V6W-il-QiH"/>
-                        <outlet property="scheduleTable" destination="HAm-ty-uoB" id="uqm-Ps-IIE"/>
+                        <outlet property="scheduleTable" destination="HAm-ty-uoB" id="ljq-fC-MWg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwH-Bz-LfW" userLabel="First Responder" sceneMemberID="firstResponder"/>
