@@ -5,4 +5,8 @@ Need to make a second controller to test the log in once it is done as well.
 
 7/8 -- Finished the camp information section. The camp schedule can now be updated using firebase instead of hardcoding a schedule.
 
-[KNOWN BUG] -- the user must tap on "Camp information", then "Home", then "Camp Information" for the schedule to show up.... Need to find why the data does not reload upon first tap
+[KNOWN BUG - A1] -- the user must tap on "Camp information", then "Home", then "Camp Information" for the schedule to show up.... Need to find why the data does not reload upon first tap
+
+7/24 -- All of the features are working. There is still bug fixing to do but that will only be able to be done once a list of bugs is compiled -- I will need a group to test it out. Maybe parents at this upcoming camp?
+
+[FIXED BUG - A1] -- Bug A1 has been fixed, didn't fix it myself but it seems that it is no longer having the user exit then enter again for the schedule to show up. Maybe it was just a slow internet connection that was messing up the schedule showing up.

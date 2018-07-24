@@ -29,7 +29,7 @@ class CampInfoViewController: UIViewController, UITableViewDataSource, UITableVi
         let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
         
         let scheduleCell = scheduleArray[indexPath.row]
-        print(scheduleCell)
+        //print(scheduleCell)
         cell.textLabel?.text = scheduleCell
         if (indexPath.row % 2 == 0) { cell.backgroundColor = UIColor(red: 65/255, green: 105/255, blue: 255/255, alpha: 1.0)
         }

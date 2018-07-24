@@ -49,7 +49,7 @@ DEPENDENCIES:
   - Firebase/Storage
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -77,4 +77,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: c1c092f010ba4f92aaf27fab997593020dfc5030
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
