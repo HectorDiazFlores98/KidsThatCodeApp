@@ -5,3 +5,5 @@ This app will be used as a suppliment for parents to be able to keep up with wha
 
 ## Features
 ### AR Commercial
+![Image of KTC AR in action]
+(https://github.com/HectorDiazFlores98/KidsThatCodeApp/blob/master/KidsThatCode/KTCAR.gif)
