@@ -1,2 +1,2 @@
-# KidsThatCodeApp
-Repo for the KTC App in development
+# Kids That Code App
+## Description
